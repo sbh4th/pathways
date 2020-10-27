@@ -1,0 +1,1 @@
+Materials for talk on open science given to [Pathways to Health Cities](http://equitablehealthycities.org/) project 2020-10-29.
