@@ -25,31 +25,34 @@ class: center, middle, inverse, title-slide
 
 
 
+background-image: url(images/wansink-bowl.jpeg)
+background-size: contain
+class: inverse
+
+--
+
 .pull-left[
-![](images/wansink-bowl.jpeg)
-
-![](images/wansink-nestle.png)
+![:scale 70%](images/wansink-mindless.jpg)
 ]
 
+--
 .pull-right[
-![](images/wansink-gscholar.png)
+![:scale 80%](images/wansink-gscholar.png)
 ]
 
+---
+![](images/wansink-nestle.png)
 
 .footnote[ https://www.foodpolitics.com/2007/11/brian-wansink-at-the-usda/]
 
 ---
 .pull-left[
-*"I gave her a data set of a self-funded, failed study which had null results... I said, ‘This cost us a lot of time and our own money to collect. There’s got to be something here we can salvage because it’s a cool (rich &amp; unique) data set.’ I had three ideas for potential Plan B, C, &amp; D directions (since Plan A had failed)."*
-]
-
-.pull-right[
-![](images/wansink-vox.png)
+*"I gave her a data set of a self-funded, failed study which had null results... I said, ‘This cost us a lot of time and our own money to collect. There’s got to be something here we can salvage because it’s a cool (rich &amp; unique) data set.’ I had three ideas for potential Plan B, C, &amp; D directions (since Plan A had failed)."* -Wansink, 2016
 ]
 
 ---
 .pull-left[
-*"I gave her a data set of a self-funded, failed study which had null results... I said, ‘This cost us a lot of time and our own money to collect. There’s got to be something here we can salvage because it’s a cool (rich &amp; unique) data set.’ I had three ideas for potential Plan B, C, &amp; D directions (since Plan A had failed)."*
+*"I gave her a data set of a self-funded, failed study which had null results... I said, ‘This cost us a lot of time and our own money to collect. There’s got to be something here we can salvage because it’s a cool (rich &amp; unique) data set.’ I had three ideas for potential Plan B, C, &amp; D directions (since Plan A had failed)."* -Wansink, 2016
 
 Enterprising grad students found:
 - impossible values
@@ -59,8 +62,12 @@ Enterprising grad students found:
 Requests for access to the original data were denied by Wansink.
 ]
 
+--
+
 .pull-right[
 ![](images/wansink-vox.png)
+
+Wansink resigned in 2018.
 ]
 
 ---
@@ -73,14 +80,13 @@ Requests for access to the original data were denied by Wansink.
 ![](images/ziemann-abstract.png)
 ]
 
-
 .footnote[ Boddy (2016), Ziemann (2016)]
 
 ---
 # More recently...
 .pull-left[
-![](excel-guardian.png)
-![:scale 65%](spreadsheets-box.png)
+![](images/excel-guardian.png)
+![:scale 65%](images/spreadsheets-box.png)
 ]
 
 .pull-right[
@@ -91,26 +97,29 @@ Are Spreadsheets® right for you? Side effects may include:
 
 
 .footnote[ Sources: The Guardian [(2020-10-06)](https://www.theguardian.com/politics/2020/oct/05/how-excel-may-have-caused-loss-of-16000-covid-tests-in-england), [YouTube](https://www.youtube.com/watch?v=aBoKwArgC3A)]
+
+---
+.footnote[Sterling, 1959; Cohen, 1962; Lykken, 1968; Tukey, 1969; Greenwald, 1975; Meehl, 1978; Rosenthal, 1979
+]
+
 ---
 class: center
 # The integrity of science is compromised by non-reproducible research.
 
 --
 
-## There are tools to help you.
+## There are tools to help us.
 
 ---
+class: left, top, inverse
+# Core Problem:
+## Weak Scientific Integrity
 
-# Plan for today
-## 1. Scientific Integrity Problems
+# Things that *can* help
 
-## 2. Design Solutions
-
-## 3. Analytic Solutions
-
-## 4. Dissemination Solutions
-
-## 5. Reproducible Example
+## Design (Preregistration, Reporting)
+## Reproducible Workflow
+## Dissemination
 
 ---
 .footnote[Malley et al. *Society &amp; Natural Resources* (2011)]
@@ -182,6 +191,7 @@ class: center, middle, inverse
 .footnote[ Merton (1942), Christensen et al. (2019)]
 
 ---
+## Mertonian Norms and Counternorms in Science
 .pull-left[
 ### Norms
 - *Universalism*: Evaluate research only on its merit.
@@ -205,43 +215,144 @@ class: center, middle, inverse
 ]
 
 ---
-.footnote[ Christensen et al. (2019)]
-.left-column[
-### Scientists subscribe to norms, but think others exhibit counternorms.
+class: center, top, inverse
+# .background[x]
 
-(Surveyed 3247 US researchers funded by NIH)
-]
+# .orange[**How do we know that science isn't working?**]
+
+--
+
+# .orange[**(1) Ask scientists.**]
+
+---
+.footnote[ Christensen et al. (2019) surveyed 3247 US researchers funded by NIH]
+.left-column[
+.right[
+###.white[x]
+### "In theory"
+#### .white[x]
+### "Me"
+####.white[x]
+### .orange["Them"]
+]]
+
 .right-column[
-![](images/christensen-norms.png)
+![:scale 100%](images/christensen-norms-arrow.png)
 ]
+
 ---
 ## Potential sources of bias in published research
-.pull-left[
-### Usual culprits
-- Uncontrolled confounding
-
-- Selection bias
-
-- Measurement error
-
-- Model misspecification, etc.
+.left-column[
+&lt;img src="slides_files/figure-html/unnamed-chunk-2-1.png" width="100%" height="100%" /&gt;
 ]
 
-.pull-right[
-### Problems with integrity
-- Fraud/manipulation/fabrication
+.right-column[
+### Deceipt
+#### Fraud, manipulation, fabrication
+### Significance chasing
+#### P-hacking, publication bias, file drawers, broken peer review
+### Conflicts of interest
+#### Financial, self-interest, careerism, bad incentives
+]
 
-- NHST: Publication bias
+---
+## Integrity Problems
+### Confirmation bias, dogmatism
 
-- NHST: P-hacking
+.center[
+![:scale 100%](images/wansink-confirmation.png)
+]
 
-- Conflicts of interest
+---
+## Integrity Problems
+### Fraud, manipulation, fabrication, etc.
 
-- Careerism
+.center[
+![:scale 100%](images/wansink-manipulation.png)
+]
 
-- Broken peer review
+---
+.left-column[
+## Integrity Problems
+### P-hacking, fishing, data dredging, etc.
+]
 
-- Lack of transparency
+.right-column[
+![:scale 80%](images/wansink-p-hacking-int.png)
+]
+
+---
+## Integrity Problems
+### P-hacking, fishing, data dredging, etc.
+
+.center[
+![:scale 80%](images/wansink-p-hacking-dv.png)
+]
+
+---
+## Integrity Problems
+### Careerism, attention seeking, least publishable unit, etc.
+
+.center[
+![:scale 100%](images/wansink-careerism.png)
+]
+
+---
+## Integrity Problems
+### Lack of transparency
+
+.center[
+# .white[x]
+# .red[**This entire conversation was an email.**]
+]
+
+---
+Open science aims to provide tools and incentives to make science more transparent, reproducible, and reliable.
+
+---
+# How can open science help?
+.left-column[
+
+]
+.right-column[
+## 1. Transparent Design
+## 2. Reproducible Workflow
+## 3. Open Dissemination
+]
+---
+class: center, top, inverse
+# What if my results are null?
+
+--
+
+# You said they won't get published!
+
+--
+
+# I have to make rent.
+
+---
+## Emphasis on design: .red[Registered Reports]
+
+![](images/lee-rr.png)
+.footnote[ Lee (2019)]
+
+---
+.footnote[Allen &amp; Mehler, *PLoS Biology* [(2019)](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000246)]
+
+.left-column[
+### RRs in Psychology
+
+Little difference between 'replication' studies and 'novel' studies.
+
+Big difference from non-registered studies.
+]
+
+
+.right-column[
+.center[
+![:scale 75%](images/allen-rr-2019.png)
+]
 ]
 
 ---
@@ -518,6 +629,16 @@ Most authors only included estimation code.
 ![](images/research-lifecycle-solution.png)
 
 .footnote[ Policy Design &amp; Evaluation Lab (2017)]
+
+---
+class: center, top, inverse
+# .background[x]
+
+# .orange[**Registration, pre-analysis plans, and reporting guides are design strategies to help mitigate bias from underreported research**]
+
+--
+
+# .orange[**They do not guarantee reliable or valid research**]
 
 ---
 # Summary points: Why Embrace Reproducible Research?
