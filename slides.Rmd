@@ -557,6 +557,7 @@ class: center, top, inverse
 A majority of registerd RCTs still not reported.
 ![:scale 80%](images/zarin-nejm-2019-fig.png)
 ]
+
 ---
 class: center, top, inverse
 # .orange[**Analytic Solutions**]
